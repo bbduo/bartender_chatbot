@@ -1,0 +1,157 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "introduce",
+        "text": "can you introduce"
+      },
+      {
+        "intent": "introduce",
+        "text": "I'm looking for a cocktail"
+      },
+      {
+        "intent": "introduce",
+        "text": "I want to know something about "
+      },
+      {
+        "intent": "introduce",
+        "text": "can you tell me something about"
+      },
+      {
+        "intent": "introduce",
+        "text": "Do you know something about"
+      },
+      {
+        "intent": "like_cocktail",
+        "text": "cocktail"
+      },
+      {
+        "intent": "like_cocktail",
+        "text": "i prefer cocktail"
+      },
+      {
+        "intent": "like_cocktail",
+        "text": "I want to have some cocktail"
+      },
+      {
+        "intent": "like_cocktail",
+        "text": "give me cocktail"
+      },
+      {
+        "intent": "like_cocktail",
+        "text": "i'd like cocktail"
+      },
+      {
+        "intent": "like_ord_drink",
+        "text": "ordinary drink"
+      },
+      {
+        "intent": "like_ord_drink",
+        "text": "i prefer ordinary drink"
+      },
+      {
+        "intent": "like_ord_drink",
+        "text": "give me ordinary drink"
+      },
+      {
+        "intent": "like_ord_drink",
+        "text": "i'd like  ordinary drink"
+      },
+      {
+        "intent": "like_ord_drink",
+        "text": "I want to have some ordinary drink"
+      },
+      {
+        "intent": "instruct",
+        "text": "How do I mix "
+      },
+      {
+        "intent": "instruct",
+        "text": "can you tell me how to craft"
+      },
+      {
+        "intent": "instruct",
+        "text": "i wanna know how to make"
+      },
+      {
+        "intent": "instruct",
+        "text": "do you know how to make"
+      },
+      {
+        "intent": "instruct",
+        "text": "how can i make"
+      },
+      {
+        "intent": "ready",
+        "text": "sure"
+      },
+      {
+        "intent": "ready",
+        "text": "I'm ready"
+      },
+      {
+        "intent": "ready",
+        "text": "Yes"
+      },
+      {
+        "intent": "ready",
+        "text": "of course"
+      },
+      {
+        "intent": "recommand",
+        "text": "can you recommand some drinks?"
+      },
+      {
+        "intent": "recommand",
+        "text": "Do you have any recommended drinks?"
+      },
+      {
+        "intent": "recommand",
+        "text": "i wanna have some drinks"
+      },
+      {
+        "intent": "recommand",
+        "text": "which one is the popular one ?"
+      },
+      {
+        "intent": "ask_explanation",
+        "text": "who are you?"
+      },
+      {
+        "intent": "ask_explanation",
+        "text": "What can you do?"
+      },
+      {
+        "intent": "ask_explanation",
+        "text": "What can you do?"
+      },
+      {
+        "intent": "ask_explanation",
+        "text": "how is it working"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

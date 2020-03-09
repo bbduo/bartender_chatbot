@@ -1,0 +1,231 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "can you introduce",
+        "intent": "introduce",
+        "entities": []
+      },
+      {
+        "text": "I'm looking for a cocktail",
+        "intent": "introduce",
+        "entities": []
+      },
+      {
+        "text": "I want to know something about ",
+        "intent": "introduce",
+        "entities": []
+      },
+      {
+        "text": "can you tell me something about",
+        "intent": "introduce",
+        "entities": []
+      },
+      {
+        "text": "cocktail",
+        "intent": "like_cocktail",
+        "entities": []
+      },
+      {
+        "text": "i prefer cocktail",
+        "intent": "like_cocktail",
+        "entities": []
+      },
+      {
+        "text": "I want to have some cocktail",
+        "intent": "like_cocktail",
+        "entities": []
+      },
+      {
+        "text": "give me cocktail",
+        "intent": "like_cocktail",
+        "entities": []
+      },
+      {
+        "text": "i'd like cocktail",
+        "intent": "like_cocktail",
+        "entities": []
+      },
+      {
+        "text": "ordinary drink",
+        "intent": "like_ord_drink",
+        "entities": []
+      },
+      {
+        "text": "i prefer ordinary drink",
+        "intent": "like_ord_drink",
+        "entities": []
+      },
+      {
+        "text": "give me ordinary drink",
+        "intent": "like_ord_drink",
+        "entities": []
+      },
+      {
+        "text": "i'd like  ordinary drink",
+        "intent": "like_ord_drink",
+        "entities": []
+      },
+      {
+        "text": "I want to have some ordinary drink",
+        "intent": "like_ord_drink",
+        "entities": []
+      },
+      {
+        "text": "how can i mix ",
+        "intent": "instruct",
+        "entities": []
+      },
+      {
+        "text": "how do i make ",
+        "intent": "instruct",
+        "entities": []
+      },
+      {
+        "text": "can you tell me how to craft",
+        "intent": "instruct",
+        "entities": []
+      },
+      {
+        "text": "i wanna know how to make",
+        "intent": "instruct",
+        "entities": []
+      },
+      {
+        "text": "do you know how to make",
+        "intent": "instruct",
+        "entities": []
+      },
+      {
+        "text": "how can i make",
+        "intent": "instruct",
+        "entities": []
+      },
+      {
+        "text": "how can i mix Margarita?",
+        "intent": "instruct",
+        "entities": []
+      },
+      {
+        "text": "sure",
+        "intent": "ready",
+        "entities": []
+      },
+      {
+        "text": "I'm ready",
+        "intent": "ready",
+        "entities": []
+      },
+      {
+        "text": "Yes",
+        "intent": "ready",
+        "entities": []
+      },
+      {
+        "text": "of course",
+        "intent": "ready",
+        "entities": []
+      },
+      {
+        "text": "can you recommand some drinks?",
+        "intent": "recommand",
+        "entities": []
+      },
+      {
+        "text": "do you have any recommended drinks?",
+        "intent": "recommand",
+        "entities": []
+      },
+      {
+        "text": "i wanna have some drinks",
+        "intent": "recommand",
+        "entities": []
+      },
+      {
+        "text": "which one is the popular one ?",
+        "intent": "recommand",
+        "entities": []
+      },
+      {
+        "text": "who are you?",
+        "intent": "ask_explanation",
+        "entities": []
+      },
+      {
+        "text": "What can you do?",
+        "intent": "ask_explanation",
+        "entities": []
+      },
+      {
+        "text": "What can you do for me?",
+        "intent": "ask_explanation",
+        "entities": []
+      },
+      {
+        "text": "how is it working",
+        "intent": "ask_explanation",
+        "entities": []
+      },
+      {
+        "text": "are you a robot",
+        "intent": "ask_explanation",
+        "entities": []
+      },
+      {
+        "text": "yes,i'm ready",
+        "intent": "ready",
+        "entities": []
+      },
+      {
+        "text": "no, i'm not ready",
+        "intent": "denny",
+        "entities": []
+      },
+      {
+        "text": "i'm not sure",
+        "intent": "denny",
+        "entities": []
+      },
+      {
+        "text": "maybe, i'm not sure",
+        "intent": "denny",
+        "entities": []
+      },
+      {
+        "text": "oh,i'm not",
+        "intent": "denny",
+        "entities": []
+      },
+      {
+        "text": "no",
+        "intent": "denny",
+        "entities": []
+      },
+    ]
+  }
+}
