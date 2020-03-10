@@ -49,7 +49,7 @@
 - 函数说明
 
 函数| 作用
- :-: | :-: | :-:
+ :-: | :-: | 
 search_instruction(drinks) | 找到一款酒的调酒方法 |
 search_drink_inform(drinks)|找到一款酒的信息（酒杯，照片，评价）|
 search_materials(drinks)|找到一款酒的调酒配料|
