@@ -90,7 +90,7 @@ def find_cocktails(message):
 def judge_intent(intent):
     # 如果意图是介绍一款酒的话
     if 'introduce' in intent:
-        drink_information = search_drink_inform(cocktail)
+        drink_information = search_drink_inform(drinks)
         drink_information = tuple(drink_information)
         return drink_information
 
@@ -106,12 +106,12 @@ def judge_intent(intent):
     # 如果意图是要找调酒的方法的话，要看看材料准备好没
     if 'instruct' in intent:
         #   materials :   Tequila,Triple sec,Lime juice,Salt,Blue Curacao,Lime Juice,Agave syrup,Ice,Cream of coconut,Strawberry schnapps,Lemon juice,Strawberries
-        materials = search_materials(cocktail)
+        materials = search_materials(drinks)
         return materials
 
     # 如果材料准备好了的话
     if 'ready' in intent:
-        instruction = search_instruction()
+        instruction = search_instruction(drinks)
         return instruction
 
 
@@ -127,11 +127,18 @@ if __name__ == '__main__':
     # cocktail = find_cocktails(message)
     #
     # state = send_message(policy, state, message)
+    cocktail_name = []
 
     message = input('USER : ')
     while message is not():
+        # 找到鸡尾酒名
         cocktail = find_cocktails(message)
-
+        # 如果是两轮对话第二步cocktail = none了，所以要用cocktail_name把酒名存起来。再用.join取出来。
+        if cocktail is not None:
+            cocktail_name.append(cocktail)
+            drinks = ''.join(cocktail_name)
+        else:
+            drinks = ''.join(cocktail_name)
         state = send_message(policy, state, message)
         message = input('USER : ')
 
