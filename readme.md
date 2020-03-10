@@ -2,13 +2,13 @@
 这是一个简单的聊天机器人，你可以通过它获取关于鸡尾酒的知识。基于wxpy模块，实现了在微信界面的聊天。
 ***
 # 演示GIF
+- 这是用查询酒Daiquiri相关信息作为实例：
+
+![](https://github.com/bbduo/bartender_chatbot/blob/master/img/windows.gif)
+
 - 这是用查询Margarita酒相关信息作为实例：
 
-![](图片链接地址)
-
-- 这是用查询Daiquiri酒相关信息作为实例：
-
-![](图片链接地址)
+![](https://github.com/bbduo/bartender_chatbot/blob/master/img/iphone.gif)
 
 ***
 
@@ -62,7 +62,7 @@ find_cocktails(message)|找到鸡尾酒名|
 以实现功能查询鸡尾酒信息为例：
 
 
-![]()
+![](https://github.com/bbduo/bartender_chatbot/blob/master/img/3.png)
 ***
 # 配置环境
 1.	git clone代码
